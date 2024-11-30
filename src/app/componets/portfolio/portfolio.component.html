@@ -1,0 +1,131 @@
+<!-- PORTFOLIO SECTION -->
+
+<section class="portfolio">
+    <h2 class="heading">Últimos <span>Proyectos</span></h2>
+    <div class="portfolio-container">
+         <div class="portfolio-box">
+
+
+              <div [class.active]="currentImageIndex === 0" class="portfolio-detail">
+                   <p class="numb">01</p>
+                   <h3>Frontend Project</h3>
+                   <p>Diseñé una página web para un restaurante de comida italiana, 
+                    destacando su menú auténtico, reservaciones en línea y un diseño 
+                    que refleja la elegancia de la gastronomía italiana.</p>
+                    <div class="tech">
+                         <p>HTML5 - CSS3 - JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+              </div>
+
+
+              <div [class.active]="currentImageIndex === 1" class="portfolio-detail">
+                  <p class="numb">02</p>
+                  <h3>Full Stack Project</h3>
+                   <p>Creé un sitio web para una marca de batidos de frutas naturales, 
+                    con un diseño fresco y vibrante que transmite la esencia saludable y 
+                    deliciosa de sus productos.</p>
+                    <div class="tech">
+                         <p>MongoDB - Express.js - React.js - Node.js</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+             </div>
+
+
+              <div [class.active]="currentImageIndex === 2" class="portfolio-detail">
+                  <p class="numb">03</p>
+                  <h3>Frontend Project</h3>
+                   <p>Desarrollé la página web de un café, ofreciendo un diseño acogedor 
+                    que permite a los usuarios explorar el menú, ubicaciones y eventos especiales.</p>
+                    <div class="tech">
+                         <p>React.js - Tailwind - CSS3</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+              </div>
+
+
+
+              <div [class.active]="currentImageIndex === 3" class="portfolio-detail">
+                  <p class="numb">04</p>
+                  <h3>Full Stack Project</h3>
+                   <p>Diseñé un sitio para una boutique y spa, enfocándome en resaltar la 
+                    elegancia de sus servicios de moda y relajación a través de un diseño 
+                    moderno y sofisticado.</p>
+                    <div class="tech">
+                         <p>MongoDB - Express.js - Angular.js - Node.js</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+              </div>
+
+
+
+              <div [class.active]="currentImageIndex === 4" class="portfolio-detail">
+                  <p class="numb">05</p>
+                  <h3>Frontend Project</h3>
+                   <p>Creé una plataforma web para una agencia de viajes, destacando paquetes 
+                    turísticos, reservas personalizadas y destinos populares en un 
+                    diseño dinámico e intuitivo.</p>
+                    <div class="tech">
+                         <p>Vue.js - Tailwind - CSS3</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+              </div>
+
+
+
+               <div [class.active]="currentImageIndex === 5" class="portfolio-detail">
+                  <p class="numb">06</p>
+                  <h3>Full Stack Project</h3>
+                   <p>Desarrollé una página web para un restaurante especializado en brunch, 
+                    con un diseño luminoso y atractivo que resalta sus platos estrella y 
+                    opciones de reservas.</p>
+                    <div class="tech">
+                         <p>MongoDB - Express.js - Vue.js - Node.js</p>
+                    </div>
+                    <div class="live-github">
+                         <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                         <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+              </div>
+         </div>
+
+
+         <div class="portfolio-box">
+              <div class="portfolio-carousel">
+                   <div class="img-slide">
+
+
+                        <div class="img-item">
+                            <img [class.active]="currentImageIndex === 0" src="imagen/portfolio1.jpg"  class="imagen">
+                            <img [class.active]="currentImageIndex === 1" src="imagen/portfolio2.jpg"  class="imagen">
+                            <img [class.active]="currentImageIndex === 2" src="imagen/portfolio3.jpg"  class="imagen">
+                            <img [class.active]="currentImageIndex === 3" src="imagen/portfolio4.jpg"  class="imagen">
+                            <img [class.active]="currentImageIndex === 4" src="imagen/portfolio5.jpg"  class="imagen">
+                            <img [class.active]="currentImageIndex === 5" src="imagen/portfolio6.jpg"  class="imagen">
+                        </div>
+                   </div>
+              </div>
+
+
+              <div class="navigation">
+                   <button [class.disabled]="currentImageIndex === 0" (click)="changeImage('left')" class="arrow-left disabled"><i class="bx bx-chevron-left"></i></button>
+                   <button [class.disabled]="currentImageIndex === 5" (click)="changeImage('right')" class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+              </div>
+         </div>
+    </div>
+</section>

@@ -1,0 +1,35 @@
+<!-- HEADER -->
+<header>
+    <a (click)="navigateTo('/home')" 
+    [class.active]="isActive('/home')" class="logo">Luis.P</a>
+  
+    @if (!isMenuOpen) {
+        <i class='bx bx-menu menu-icon' (click)="toggleMenu()"></i>
+    }
+    @if (isMenuOpen) {
+        <i class='bx bx-x menu-icon' (click)="toggleMenu()"></i>
+    }
+  
+    <nav [class.active]="isMenuOpen">
+        <a (click)="navigateTo('/home')" 
+     [class.active]="isActive('/home')">
+     Home
+  </a>
+  <a (click)="navigateTo('/services')" 
+     [class.active]="isActive('/services')">
+     Services
+  </a>
+  <a (click)="navigateTo('/resume')" 
+     [class.active]="isActive('/resume')">
+     Resume
+  </a>
+  <a (click)="navigateTo('/portfolio')" 
+     [class.active]="isActive('/portfolio')">
+     Portfolio
+  </a>
+  <a (click)="navigateTo('/contact')" 
+     [class.active]="isActive('/contact')">
+     Contact
+  </a>
+    </nav>
+  </header>

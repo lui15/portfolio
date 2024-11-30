@@ -1,0 +1,92 @@
+/* HEADER */
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.menu-icon{
+    font-size: 4rem;
+    color: var(--white-color);
+    display: none;
+}
+
+.logo{
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: var(--main-color);
+}
+
+nav a{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: var(--main-color);
+}
+
+nav a.active{
+color:var(--main-color);
+}
+
+/****** BREAKPOINTS ******/ 
+
+@media screen and (max-width: 992px){
+    header{
+        padding: 2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+}
+
+
+
+/********* MENU DE HAMBUGESA ***********/
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        text-align: center;
+        display: none;
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        margin: 4rem 0;
+    }
+}

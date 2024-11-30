@@ -1,0 +1,243 @@
+<!-- RESUME SECTION -->
+
+<section class="resume">
+    <div class="resume-container">
+           <div class="resume-box">
+                <h2>¿Por qué contratarme? </h2>
+                <p class="desc">Mi enfoque siempre está en resolver problemas de manera eficiente.</p>
+                 <button [class.active]="isActive1" (click)="toggleActive(1)" class="resume-btn">Experiencia</button>
+                 <button [class.active]="isActive2" (click)="toggleActive(2)" class="resume-btn">Educación</button>
+                 <button [class.active]="isActive3" (click)="toggleActive(3)" class="resume-btn">Habilidades</button>
+                 <button [class.active]="isActive4" (click)="toggleActive(4)" class="resume-btn">Acerca de mí</button>
+           </div>
+
+           <div class="resume-box">
+
+
+                <div [class.active]="isActive1" class="resume-detail experience">
+                     <h2 class="heading">My <span>Experiencia</span></h2>
+                     <p class="desc">He trabajado tanto en proyectos personales como en colaboración con empresas, 
+                      abordando una variedad de desafíos técnicos y creativos.</p>
+                     <div class="resume-list">
+                       <div class="resume-item">
+                       <p class="year">2022 - 2023</p>
+                       <h3>Frontend Developer</h3>
+                       <p class="company">Empresa de Construcción</p>
+                       <p>Desarrollé una página web moderna para una empresa de construcción, 
+                        enfocada en mostrar sus servicios.</p>
+                       </div>
+                       
+                       <div class="resume-item">
+                         <p class="year">2021 - 2022</p>
+                         <h3>Full Stack Developer</h3>
+                         <p class="company">Gym - Proyecto Personal</p>
+                         <p>Creé una plataforma web interactiva para un gimnasio, con un sistema
+                           de reservas y gestión de suscriptores.</p>
+                         </div>
+                         
+                         <div class="resume-item">
+                           <p class="year">2020 - 2021</p>
+                           <h3>Backend Developer</h3>
+                           <p class="company">Plantas - Proyecto Personal</p>
+                           <p>Desarrollé la infraestructura backend de un sitio de venta de plantas, 
+                            gestionando productos y usuarios.</p>
+                         </div> 
+
+                           
+                           <div class="resume-item">
+                             <p class="year">2019 - 2020</p>
+                             <h3>UI/UX Designer</h3>
+                             <p class="company">Servicios de Redes</p>
+                             <p>Diseñé la interfaz de usuario para un sitio web de servicios de redes, 
+                              asegurando una experiencia fluida.</p>
+                           </div> 
+
+                           <div class="resume-item">
+                             <p class="year">2019 - 2020</p>
+                             <h3>Junior Developer</h3>
+                             <p class="company">Proyecto Personal</p>
+                             <p>Desarrollé mi propio portafolio web para mostrar mis habilidades y 
+                              proyectos previos.</p>
+                           </div> 
+
+                     </div>
+                </div>
+
+
+
+                <div [class.active]="isActive2" class="resume-detail education">
+                 <h2 class="heading">My <span>Educación</span></h2>
+                 <p class="desc">Aquí encontrarás mi formación académica y los 
+                  cursos que he tomado para mejorar mis habilidades técnicas. </p>
+
+                   <div class="resume-list">
+
+
+                        <div class="resume-item">
+                             <p class="year">2020</p>
+                             <h3>Angular</h3>
+                             <p class="company">Udemy</p>
+                             <p>Curso completo de Angular, donde aprendí a desarrollar 
+                              aplicaciones web completas.</p>
+                        </div>
+
+
+                        <div class="resume-item">
+                             <p class="year">2023</p>
+                             <h3>Spring Boot</h3>
+                             <p class="company">Alura</p>
+                             <p> Estudio de Spring Boot, enfocándome en la creación de 
+                              aplicaciones backend eficientes </p>                        
+                        </div>
+
+
+                        <div class="resume-item">
+                             <p class="year">2020</p>
+                             <h3>JavaScript </h3>
+                             <p class="company">Udemy</p>
+                             <p>Curso de JavaScript en profundidad, cubriendo desde lo 
+                              básico hasta aspectos avanzados</p>                        
+                        </div>
+
+
+                        <div class="resume-item">
+                             <p class="year">2023</p>
+                             <h3>Jasmine</h3>
+                             <p class="company">Udemy</p>
+                             <p>Aprendí a realizar pruebas unitarias y de integración 
+                              con Jasmine, mejorando la calidad de los proyectos</p>                        
+                         </div>
+
+
+                         <div class="resume-item">
+                              <p class="year">2022</p>
+                              <h3>Java</h3>
+                              <p class="company">Alura</p>
+                              <p>Curso de Java, donde profundicé en la programación 
+                                orientada a objetos y el desarrollo de aplicaciones robustas.</p>                        
+                         </div>
+
+                         
+                         <div class="resume-item">
+                              <p class="year">2020</p>
+                              <h3>MySQL</h3>
+                              <p class="company">Alura</p>
+                              <p> Curso que cubre conceptos esenciales de bases de datos, 
+                                desde consultas SQL hasta optimización y diseño</p>                        
+                         </div>
+                   </div>
+                </div>
+
+
+
+                <div [class.active]="isActive3" class="resume-detail skills">
+                 <h2 class="heading">My <span>Habilidades</span></h2>
+                 <p class="desc">En esta sección, comparto las habilidades y tecnologías que domino. Estas son las 
+                  herramientas que utilizo para crear soluciones efectivas.</p>
+                   <div class="resume-list">
+
+
+                        <div class="resume-item">
+                         <i class='bx bxl-html5'></i>
+                             <span>HTML5</span>
+                        </div>
+
+                        <div class="resume-item">
+                         <i class='bx bxl-css3'></i>
+                             <span>CSS3</span>
+                        </div>
+
+                        <div class="resume-item">
+                         <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                       </div>
+
+                       <div class="resume-item">
+                         <i class='bx bxl-react'></i>
+                           <span>React.js</span>
+                       </div>
+
+                       <div class="resume-item">
+                         <i class='bx bxl-vuejs'></i>
+                            <span>Vue.js</span>
+                       </div>
+
+                       <div class="resume-item">
+                         <i class='bx bxl-tailwind-css'></i>
+                           <span>Tailwind CSS</span>
+                       </div>
+
+                       <div class="resume-item">
+                         <i class='bx bxl-nodejs'></i>
+                           <span>Node.js</span>
+                       </div>
+
+                       <div class="resume-item">
+                         <i class='bx bxl-mongodb'></i>
+                           <span>MongoDB</span>
+                       </div>
+
+                   </div>
+                </div>
+
+
+
+                <div [class.active]="isActive4" class="resume-detail about">
+                 <h2 class="heading">Acerca de <span>Mí</span></h2>
+                 <p class="desc">Aquí puedes conocer un poco más acerca de mi personalidad, 
+                  mis motivaciones y mi enfoque como programador.</p>
+                   <div class="resume-list">
+
+
+                        <div class="resume-item">
+                             <p>Nombre <span>Luis Pichardo</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Género <span>Masculino</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Edad <span>23 años</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Estado Civil <span>Soltero</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Ciudad <span>Madrid</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Nacionalidad <span>Dominicana</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Experiencia <span>4+ años</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Full Time <span>Disponible</span></p>
+                       </div>
+                    
+                       <div class="resume-item">
+                           <p>Freelance <span>Disponible</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Teléfono <span>(+34) 643 246 840</span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Email <span> {{email}} </span></p>
+                       </div>
+
+                       <div class="resume-item">
+                           <p>Idiomas <span>Español, English</span></p>
+                       </div>
+                   </div>
+                </div>
+           </div>
+    </div>
+</section>
