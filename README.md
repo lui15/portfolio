@@ -1,9 +1,8 @@
 🌟 Mi Portafolio Personal - Creado con Angular 🌟
 ¡Hola y bienvenidos a mi portafolio personal! 🚀 Este proyecto fue desarrollado para mostrar mi trayectoria como programador, mis habilidades técnicas, experiencias profesionales y los cursos que he completado a lo largo de mi carrera. Es un sitio totalmente responsivo, moderno y dinámico, diseñado para destacar lo mejor de mí en el mundo de la tecnología. 💻✨
+
 ![Portfolio - Google Chrome 01_12_2024 04_33_29 a  m](https://github.com/user-attachments/assets/a0432601-ddfe-4dbd-95fc-0cefe9c5830b)
-![Portfolio - Google Chrome 01_12_2024 04_23_07 a  m](https://github.com/user-attachments/assets/4c30f62c-073f-48e7-95e5-424a4a781a42)
-![Portfolio - Google Chrome 01_12_2024 04_23_11 a  m](https://github.com/user-attachments/assets/4e189c18-3817-472f-a0b8-8d646f5c5045)
-![Portfolio - Google Chrome 01_12_2024 04_23_16 a  m](https://github.com/user-attachments/assets/4fb651d6-9bca-42c4-a83b-f695a619ab8b)
+
 
 🎯 Propósito del Proyecto
 El objetivo principal de este portafolio es tener un espacio profesional donde pueda:
@@ -19,6 +18,8 @@ Detalles de mi carrera como programador.
 Historia profesional y enfoque en mis valores como desarrollador.
 🚀 Skills Técnicas:
 
+![Portfolio - Google Chrome 01_12_2024 04_23_07 a  m](https://github.com/user-attachments/assets/4c30f62c-073f-48e7-95e5-424a4a781a42)
+
 Frontend: Angular, JavaScript, HTML5, CSS3.
 Backend: Java, Spring Boot.
 Bases de Datos: MySQL.
@@ -31,6 +32,8 @@ Jasmine, JavaScript, y MySQL.
 
 Páginas web para empresas de construcción, gimnasios, sitios de ventas, restaurantes y más.
 📱 Diseño Responsivo:
+
+![Portfolio - Google Chrome 01_12_2024 04_23_11 a  m](https://github.com/user-attachments/assets/4e189c18-3817-472f-a0b8-8d646f5c5045)
 
 Optimizado para verse espectacular en cualquier dispositivo, desde computadoras hasta teléfonos.
 ✨ Animaciones y estilo moderno:
@@ -51,3 +54,5 @@ Diseño: CSS3, Bootstrap y animaciones personalizadas.
 Si tienes preguntas o sugerencias, no dudes en contactarme:
 📧 Email: lpichardosanchez2@gmail.com
 💼 LinkedIn: https://www.linkedin.com/in/luis-pichardo1515/
+
+![Portfolio - Google Chrome 01_12_2024 04_23_16 a  m](https://github.com/user-attachments/assets/4fb651d6-9bca-42c4-a83b-f695a619ab8b)
